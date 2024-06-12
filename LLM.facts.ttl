@@ -266,3 +266,20 @@ cs:AIOverview rdf:type cs:Software; schema:creator cs:Google;
 			schema:description "chatbot to augment Google search combining results from Gemini with snippets from the web";
 			schema:uses cs:Gemini;
 			schema:negativeNotes "told users to clean their washing machines with a mixture of chlorine bleach and vinegar which can create harmful chlorine gas; mix non-toxic glue into their pizza sauce (from Reddit post) and to eat one rock a day for vitamins and minerals (Onion post)".
+			
+cs:SAP  rdf:type  cs:Company; 
+	schema:abbreviation "System Analysis and Software Development";
+        schema:owns  cs:SAPBTP , cs:SAPSCM , cs:SAPCRM , cs:SAPEPM , cs:SAPPLM , cs:SAPAppGyver , cs:SAPS4HANA , cs:SAPHANA , cs:SAPSRM , cs:SAPSucessFactors , cs:SAPNetWeaver , cs:SAPBusinessByDesign , cs:SAPBusinessOne , cs:SAPBusinessObjects , cs:SAPIQ , cs:SAPAriba , cs:SAPABAP , cs:SAPCloudPlatform , cs:SAPConvergedCloud;
+	schema:location "Germany";
+	schema:foundingDate "1972";
+	schema:web <https://www.sap.com/index.html>.
+	
+cs:DietmarHopp  rdf:type  rdfs:Resource , schema:Person; cs:coFounded cs:SAP.
+
+cs:Hans-WernerHector  rdf:type  rdfs:Resource , schema:Person; cs:coFounded cs:SAP.
+
+cs:HassoPlattner  rdf:type  rdfs:Resource , schema:Person; cs:coFounded cs:SAP.
+
+cs:KlausTschira  rdf:type  rdfs:Resource , schema:Person; cs:coFounded cs:SAP.
+
+cs:ClausWellenreuther  rdf:type  rdfs:Resource , schema:Person; cs:coFounded cs:SAP.
